@@ -3,6 +3,7 @@ def ooo(param):
     print(param)
     print("Deutcshland -- mein herz in flamen")
     print("Willst zu liebst du und verdamen")
+    print("Deutcshland -- dein atem ist kalt ")
 
 def another_function(param):
     # какой-то другой код

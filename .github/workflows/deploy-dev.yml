@@ -12,6 +12,6 @@ jobs:
       - name: Run echo and execute python script
         run: |
           echo "Hello WORLD"
-          python ooo.py
+          python ooo.py  ooo 100
 
   

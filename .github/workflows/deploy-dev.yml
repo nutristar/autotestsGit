@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run a one line!!!
+      - name: Run a one line
         run: echo "Hello WORLD"
 
       

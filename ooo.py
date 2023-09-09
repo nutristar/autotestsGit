@@ -2,6 +2,7 @@ def ooo(param):
     # ваш код
     print(param)
     print("Deutcshland -- mein herz in flamen")
+    print("Willst zu liebst du und verdamen")
 
 def another_function(param):
     # какой-то другой код

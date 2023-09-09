@@ -1,7 +1,7 @@
 def ooo(param):
     # ваш код
     print(param)
-    print("eto  deystvie iz ooo.py  !!!  ooo  iz ooo.py")
+    print("eto  deystvie iz ooo.py  444!!!  ooo  iz ooo.py")
 
 def another_function(param):
     # какой-то другой код

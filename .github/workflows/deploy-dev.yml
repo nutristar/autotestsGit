@@ -3,15 +3,15 @@ on:
   push:
     branches: 
       - main
-jobs:      
+
+jobs:
   my_testing:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: Run a one line
-        run: echo "Hello WORLD"
+      - name: Run echo and execute python script
+        run: |
+          echo "Hello WORLD"
+          python ooo.py
 
-      
-    
-   
   

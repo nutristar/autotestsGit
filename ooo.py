@@ -6,7 +6,7 @@ def ooo(param):
     print(f"Deutcshland -- mein herz in flamen{x}")
     print("Willst zu liebst du und verdamen")
     print("Deutcshland -- dein atem ist kalt")
-    print("so jung und doch so alt!!!!!")
+    print("so jung und doch so alt!!  !!!")
 
 def another_function(param):
     # какой-то другой код

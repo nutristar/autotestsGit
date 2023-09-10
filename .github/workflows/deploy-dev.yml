@@ -4,8 +4,8 @@ on:
     branches: 
       - main
 env:
-  MY_NAME:  ${{secret.MY_NAME}}
-  MY_STATUS: ${{secret.MY_STATUS}}
+  MY_NAME:  ${{secrets.MY_NAME}}
+  MY_STATUS: ${{secrets.MY_STATUS}}
 
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Run echo and execute python script
         run: |
-          echo "Hello WORLD ${{ secret.MY_NAME}}"
+          echo "Hello WORLD ${{ secrets.MY_NAME}}"
           python ooo.py  ooo 100
 
   

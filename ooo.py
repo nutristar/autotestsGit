@@ -14,11 +14,15 @@ def another_function(param):
 
 if __name__ == "__main__":
     import sys
-    if len(sys.argv) > 2:
+
+    if __name__ == '__main__':
         function_name = sys.argv[1]
-        param = sys.argv[2]
-        if function_name == "ooo":
-            ooo(param)
+        param1 = sys.argv[2]
+        param2 = sys.argv[3]
+
+        if function_name == 'ooo':
+            ooo(param1, param2)
+
         elif function_name == "another_function":
             another_function(param)
 

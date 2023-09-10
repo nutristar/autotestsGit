@@ -9,7 +9,7 @@ def ooo(param1, param2):
     print(f"Deutcshland -- mein herz in flamen {x}")
     print("Willst zu liebst du und verdamen")
     print("Deutcshland -- dein atem ist kalt")
-    print("so jung und doch so alt!!  77!     !!")
+    print("so jung und doch so alt!!  7788!     !!")
 
 
 def another_function(param):

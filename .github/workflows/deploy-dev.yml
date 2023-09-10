@@ -3,6 +3,10 @@ on:
   push:
     branches: 
       - main
+#env:
+#  MY_NAME:${{MY_NAME}}
+#  MY_STATUS:${{MY_STATUS}}
+
 
 jobs:
   my_testing:
@@ -11,7 +15,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Run echo and execute python script
         run: |
-          echo "Hello WORLD ${{MY_NAME}}"
+          echo "Hello WORLD ${{ secret.MY_NAME}}"
           python ooo.py  ooo 100
 
   

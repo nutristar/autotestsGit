@@ -4,7 +4,7 @@ on:
     branches: 
       - main
 env:
-  MY_NAME:  MY_NAME
+  MY_NAME:  VALERA
   MY_STATUS: "MY_STATUS"
 
 

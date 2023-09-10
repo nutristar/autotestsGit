@@ -16,6 +16,6 @@ jobs:
       - name: Run echo and execute python script
         run: |
           echo "Hello WORLD ${{ env.MY_NAME}}"
-          python ooo.py  ooo 100
+          python ooo.py  ooo ${{ env.MY_NAME}}
 
   

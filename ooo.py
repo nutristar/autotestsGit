@@ -1,12 +1,12 @@
-def ooo(param):
+def ooo(param1):
     # ваш код
-    print(str(param))
-    if str(param) == "VALERA":
-        x= "VALER88888A"
+    print(str(param1))
+
+    x=str(param1)
     print(f"Deutcshland -- mein herz in flamen{x}")
     print("Willst zu liebst du und verdamen")
     print("Deutcshland -- dein atem ist kalt")
-    print("so jung und doch so alt!!  !!!")
+    print("so jung und doch so alt!!!!!")
 
 def another_function(param):
     # какой-то другой код

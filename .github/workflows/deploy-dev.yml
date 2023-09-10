@@ -4,8 +4,8 @@ on:
     branches: 
       - main
 env:
-  MY_NAME:  ${{secrets.MY_NAME}}
-  MY_STATUS: ${{secrets.MY_STATUS}}
+  MY_NAME:  ${{variables.MY_NAME}}
+  MY_STATUS: ${{variables.MY_STATUS}}
 
 
 jobs:

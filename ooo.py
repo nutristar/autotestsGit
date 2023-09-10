@@ -2,7 +2,7 @@ def ooo(param):
     # ваш код
     print(str(param))
     if str(param) == "VALERA":
-        x= "VALERA"
+        x= "VALER88888A"
     print(f"Deutcshland -- mein herz in flamen{x}")
     print("Willst zu liebst du und verdamen")
     print("Deutcshland -- dein atem ist kalt")

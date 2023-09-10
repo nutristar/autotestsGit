@@ -3,9 +3,9 @@ on:
   push:
     branches: 
       - main
-#env:
-#  MY_NAME:${{MY_NAME}}
-#  MY_STATUS:${{MY_STATUS}}
+env:
+  MY_NAME:  ${{secret.MY_NAME}}
+  MY_STATUS: ${{secret.MY_STATUS}}
 
 
 jobs:

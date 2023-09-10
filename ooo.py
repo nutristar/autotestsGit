@@ -1,6 +1,6 @@
 def ooo(param):
     # ваш код
-    print(param)
+    print(str(param))
     print("Deutcshland -- mein herz in flamen")
     print("Willst zu liebst du und verdamen")
     print("Deutcshland -- dein atem ist kalt")

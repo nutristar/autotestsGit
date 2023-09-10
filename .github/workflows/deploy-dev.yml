@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Run echo and execute python script
         run: |
-          echo "Hello WORLD $MY_NAME"
+          echo "My name is $MY_NAME  im the most powerfull $MY_STATUS"
           python ooo.py  another_function
 
   

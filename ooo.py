@@ -1,9 +1,9 @@
-def ooo(param1):
+def ooo(param1, param2):
     # ваш код
-    print(str(param1))
+    print(f" {str(param1)}  я  {param2}")
 
     x=str(param1)
-    print(f"Deutcshland -- mein herz in flamen{x}")
+    print(f"Deutcshland -- mein herz in flamen {x}")
     print("Willst zu liebst du und verdamen")
     print("Deutcshland -- dein atem ist kalt")
     print("so jung und doch so alt!!!!!")

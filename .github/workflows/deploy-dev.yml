@@ -24,6 +24,6 @@ jobs:
       - name: Run echo and execute python script
         run: |
           echo "Hello WORLD $MY_NAME"
-          python ooo.py  ooo $MY_NAME $MY_STATUS
+          python ooo.py  another_function
 
   

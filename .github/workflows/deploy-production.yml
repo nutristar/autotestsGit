@@ -19,11 +19,7 @@ jobs:
           python ooo.py  ooo $MY_NAME $MY_STATUS
   my_testing2:
     runs-on: ubuntu-latest
-<<<<<<< HEAD
-
-=======
     needs: [my_testing]
->>>>>>> 5cd3c58d9c04d6263e559cea115a88a44a248a6b
     steps:
       - uses: actions/checkout@v1
       - name: Run echo and execute python script

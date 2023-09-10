@@ -17,5 +17,13 @@ jobs:
         run: |
           echo "Hello WORLD $MY_NAME"
           python ooo.py  ooo $MY_NAME $MY_STATUS
+  my_testing2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run echo and execute python script
+        run: |
+          echo "Hello WORLD $MY_NAME"
+          python ooo.py  ooo $MY_NAME $MY_STATUS
 
   

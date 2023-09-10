@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Run echo and execute python script
         run: |
-          echo "Hello WORLD ${{ secrets.MY_NAME}}"
+          echo "Hello WORLD ${{ env.MY_NAME}}"
           python ooo.py  ooo 100
 
   
